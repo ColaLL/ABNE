@@ -6,7 +6,7 @@ The code and dataset for paper "ABNE: An Attention Based Network Embedding for U
 we share the anonymous data and code of IONE here. 
 Note that the data and code only can be used for research purposes.**
 
-When running the code, firstly check the Vars.java to make sure that the path of the data is correct. 
+When running the code, firstly check the **Vars.java** to make sure that the path of the data is correct. 
 
 Description of Data directory
 
@@ -29,6 +29,8 @@ groundtruth.x.foldtrain.train.number, the traning anchors, which are the 0.x of 
 groundtruth.x.foldtrain.test.number,  the testing anchors, which are the 1-0.x of all the anchors.
     
 note that users only appear in the "groundtruth" file are the training anchors (even there are some uses have same ids, they are not anchors) 
+
+
 
 
 
