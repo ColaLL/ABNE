@@ -49,7 +49,7 @@ Besides, there are other attention relation files generated in the twitter/fours
 
 **following.number.$train_ratio$.attn**
 
-For instance **following.number.9.attn**
+For instance, **following.number.9.attn**
 
 based on the train_ratio parameter settings.
 
