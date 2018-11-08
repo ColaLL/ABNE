@@ -43,9 +43,13 @@ There are several file generated after runing the ABNE.java
 
 is the ABNE(Attn) embedding file for twitter(foursquare). The exact filename is based on the parameter setttings.
 
+For instance, **twitter.Attn.embedding.2_itercount.9.number.100_dim.10000000**
+
 Besides, there are other attention relation files generated in the twitter/foursquare directory
 
 **following.number.$train_ratio$.attn**
+
+For instance **following.number.9.attn**
 
 based on the train_ratio parameter settings.
 
