@@ -28,7 +28,7 @@ groundtruth.x.foldtrain.train.number, the traning anchors, which are the 0.x of 
 		
 groundtruth.x.foldtrain.test.number,  the testing anchors, which are the 1-0.x of all the anchors.
     
-note that users only appear in the train file are the training anchors () 
+note that users only appear in the "groundtruth" file are the training anchors (even there are some uses have same ids, they are not anchors) 
 
 
 
