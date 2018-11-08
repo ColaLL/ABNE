@@ -39,11 +39,21 @@ Run the **ABNE.java** for the embeddings. There are several parameters in the ma
 There are several file generated after runing the ABNE.java
 
 ### Embedding files (in embeddings directory of twitter/foursquare):
-twitter(foursquare).ABNE(Attn).embedding.$total_iter$_itercount.$train_ratio$.number.$dimension$_dim.$embedding_epoch$
+**twitter(foursquare).ABNE(Attn).embedding.$total_iter$_itercount.$train_ratio$.number.$dimension$_dim.$embedding_epoch$**
+
 is the ABNE(Attn) embedding file for twitter(foursquare). The exact filename is based on the parameter setttings.
 
 Besides, there are other attention relation files generated in the twitter/foursquare directory
-following.number.$train_ratio$.attn based on the train_ratio parameter settings.
+
+**following.number.$train_ratio$.attn**
+
+based on the train_ratio parameter settings.
+
+## For evaluation
+
+Run the **getPrecision.java** for evaluation, here we provide a sample for the ABEN model with dimension=100 and train_ratio=9. If you want to get results with other parameter settings, pls change the temp_string as the corresponding generated embedding file.
+
+**Feel free to contact me (Liu Li liuli0407@hotmail.com) when you have any problems about the paper or the code.**
 
 
 
