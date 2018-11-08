@@ -57,6 +57,7 @@ based on the train_ratio parameter settings.
 
 Run the **getPrecision.java** for evaluation, here we provide a sample for the ABEN model with dimension=100 and train_ratio=9. If you want to get results with other parameter settings, pls change the temp_string as the corresponding generated embedding file.
 
+**By the way, the you can find the IONE model at https://github.com/ColaLL/IONE which is used as one baseline in this paper**
 **Feel free to contact me (Liu Li liuli0407@hotmail.com) when you have any problems about the paper or the code.**
 
 
