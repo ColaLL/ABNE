@@ -28,7 +28,22 @@ groundtruth.x.foldtrain.train.number, the traning anchors, which are the 0.x of 
 		
 groundtruth.x.foldtrain.test.number,  the testing anchors, which are the 1-0.x of all the anchors.
     
-note that users only appear in the "groundtruth" file are the training anchors (even there are some uses have same ids, they are not anchors) 
+Note that users only appear in the "groundtruth.number" file are the training anchors (even there are some uses have same ids, they are not anchors) 
+
+# Model Running
+
+Run the **ABNE.java** for the embeddings. There are several parameters in the main function: **attention_epoch** for the Vanilla_Attn iteration, **embedding_epoch** for embedding algorithm iteration, **total_iter** for the outmost iteration, **dimension** for the dimensions, **train_ratio** for the training set ratio.
+
+## Generated Files
+
+There are several file generated after runing the ABNE.java
+
+### Embedding files (in embeddings directory of twitter/foursquare):
+twitter(foursquare).ABNE(Attn).embedding.$total_iter$_itercount.$train_ratio$.number.$dimension$_dim.$embedding_epoch$
+is the ABNE(Attn) embedding file for twitter(foursquare). The exact filename is based on the parameter setttings.
+
+Besides, there are other attention relation files generated in the twitter/foursquare directory
+following.number.$train_ratio$.attn based on the train_ratio parameter settings.
 
 
 
